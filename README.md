@@ -1,0 +1,1 @@
+# charls-dotnet-image-test
