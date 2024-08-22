@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35209.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "charls-dotnet-image-test", "charls-dotnet-image-test.csproj", "{912F9287-F778-4528-98B7-474C0CB08183}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "charls-dotnet-image-test", "src\charls-dotnet-image-test.csproj", "{6C1F50BA-479A-48E9-B759-50F380B393EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1311796A-EC49-4BEB-A6DE-89B69E333BB3}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{912F9287-F778-4528-98B7-474C0CB08183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{912F9287-F778-4528-98B7-474C0CB08183}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{912F9287-F778-4528-98B7-474C0CB08183}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{912F9287-F778-4528-98B7-474C0CB08183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1F50BA-479A-48E9-B759-50F380B393EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1F50BA-479A-48E9-B759-50F380B393EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1F50BA-479A-48E9-B759-50F380B393EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1F50BA-479A-48E9-B759-50F380B393EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

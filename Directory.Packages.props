@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup>
+    <PackageVersion Include="CharLS.Managed" Version="0.8.0" />
+  </ItemGroup>
+</Project>
