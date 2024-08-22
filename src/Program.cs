@@ -99,10 +99,8 @@ static bool CheckImage(string path, InterleaveMode interleaveMode)
 {
     PortableAnymapFile referenceFile = ReadAnymapReferenceFile(path, interleaveMode);
 
-    JpegLSEncoder encoder = new(referenceFile.Width, referenceFile.Height, referenceFile.BitsPerSample, referenceFile.ComponentCount)
-    {
-        InterleaveMode = interleaveMode
-    };
+    JpegLSEncoder encoder = new(
+        referenceFile.Width, referenceFile.Height, referenceFile.BitsPerSample, referenceFile.ComponentCount, interleaveMode);
 
     Stopwatch stopwatch = new();
     stopwatch.Start();
