@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 # Ignore build output
-build/
+artifacts/
 
 # Ignore files created by Visual Studio / Visual Studio Code
 .vs/

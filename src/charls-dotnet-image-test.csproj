@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <SubsystemVersion>6.04</SubsystemVersion>
   </PropertyGroup>
 
   <ItemGroup>
